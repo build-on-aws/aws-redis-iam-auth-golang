@@ -1,4 +1,6 @@
-# Authenticate Go application to Amazon MemoryDB (and Amazon ElastiCache) for Redis using AWS IAM
+# Using IAM authentication for Redis on AWS
+
+*How to securely connect your Go applications to Amazon MemoryDB (or ElastiCache) for Redis using IAM*
 
 Amazon MemoryDB has supported username/password based authentication [using Access Control Lists](https://docs.aws.amazon.com/memorydb/latest/devguide/components.html#whatis.components.acls) since the very beginning. But it also supports [IAM for authentication](https://aws.amazon.com/about-aws/whats-new/2023/05/amazon-memorydb-redis-iam-authentication/).
 
